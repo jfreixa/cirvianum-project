@@ -1,0 +1,4 @@
+.Title {
+  @mixin OpenSans 40px;  
+  color: #000;
+}

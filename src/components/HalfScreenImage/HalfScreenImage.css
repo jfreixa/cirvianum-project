@@ -1,0 +1,7 @@
+.HalfScreenImage {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  height: 100vh;
+  overflow: hidden;
+}
