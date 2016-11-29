@@ -1,19 +1,20 @@
 .Left{
   text-align: left; 
-}
-.Left button{
-  float: right;
-}
+  button{
+    float: right;
+  }
+} 
 .Right{
   text-align: right;
-}
-.Right button{
-  float: left;
+  button{
+    float: left;
+  }
 }
 .HalfScreenText {
   box-sizing: border-box;
-  width: 50%;
-  float: left;
   height: 100vh;
-  padding: 20vh 8vw;
+  padding: 15vh 8vw;
+  @media (min-width: 1200px){
+    min-width: 50%;
+  }
 }

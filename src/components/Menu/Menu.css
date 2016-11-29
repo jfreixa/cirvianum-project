@@ -1,0 +1,13 @@
+.Menu{
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+  width: 100%;
+}
+.Logo{
+  height: 80px;
+}

@@ -1,0 +1,10 @@
+.FlexLayout{
+  @media (min-width: $lg){
+    display: flex;
+  }
+}
+.reverse{
+  @media (min-width: $lg){
+    flex-direction: row-reverse;
+  }
+}
