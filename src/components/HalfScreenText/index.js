@@ -5,7 +5,9 @@ const HalfScreenText = ({ alignRight, children }) => {
   const classAlign = alignRight ? styles.Right : styles.Left
   return (
     <div className={[styles.HalfScreenText, classAlign].join(' ')}>
-      {children}
+      <div className={styles.Flex}>
+        {children}
+      </div>
     </div>
   )
 }

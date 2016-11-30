@@ -1,6 +1,6 @@
 .MenuItem{
   text-decoration: none;
   padding-left: 20px;
-  @mixin OpenSans 35px;
+  @mixin OpenSans 25px;
   color: #888;
 }

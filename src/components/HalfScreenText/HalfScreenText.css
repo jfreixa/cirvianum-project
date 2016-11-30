@@ -1,6 +1,7 @@
 .Left{
   text-align: left; 
   button{
+    margin-top: 20px;
     float: right;
   }
 } 
@@ -8,13 +9,19 @@
   text-align: right;
   button{
     float: left;
+    margin-top: 20px;    
   }
 }
 .HalfScreenText {
   box-sizing: border-box;
   height: 100vh;
-  padding: 15vh 8vw;
+  display: flex;
+  align-items: center;
   @media (min-width: 1200px){
     min-width: 50%;
   }
+}
+.Flex{
+  padding: 0 8vw;
+  width: 100%;
 }
