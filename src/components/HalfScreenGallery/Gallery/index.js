@@ -1,6 +1,14 @@
 import React from 'react'
 import Lightbox from 'react-images'
 
+// Gallery image style
+const style = {
+  display: 'block',
+  margin: 2,
+  backgroundColor: '#e3e3e3',
+  float: 'left'
+}
+
 class Gallery extends React.Component {
   constructor () {
     super()
@@ -164,13 +172,6 @@ Gallery.defaultProps = {
   lightboxShowImageCount: false,
   backdropClosesModal: true,
   disableLightbox: false
-}
-// Gallery image style
-const style = {
-  display: 'block',
-  margin: 2,
-  backgroundColor: '#e3e3e3',
-  float: 'left'
 }
 
 export default Gallery

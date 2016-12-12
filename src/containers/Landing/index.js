@@ -18,7 +18,7 @@ class Landing extends Component {
     let returnArray = []
     for (let i = 0; i < times; i++) {
       const width = Math.floor(Math.random() * (1920 - 400) + 400)
-      const height = Math.floor(Math.random() * (800 - 400) + 400)
+      const height = Math.floor(Math.random() * (600 - 600) + 600)
       const aspectRatio = width / height
       returnArray.push({
         src: `http://lorempixel.com/${width}/${height}/`,
@@ -62,7 +62,7 @@ class Landing extends Component {
         </FlexLayout>
 
         <FlexLayout id='galeria'>
-          <HalfScreenGallery photos={this.generateImage(10)} />
+          <HalfScreenGallery photos={this.generateImage(5)} />
           <HalfScreenText>
             <Title text='Visita la nostra galeria' />
             <P text='Tria el que vulguis veure' />
@@ -71,7 +71,7 @@ class Landing extends Component {
         </FlexLayout>
 
         <FlexLayout reverse id='empreses'>
-          <HalfScreenGallery photos={this.generateImage(10)} />
+          <HalfScreenGallery photos={this.generateImage(5)} />
           <HalfScreenText alignRight>
             <Title text='Empreses col·laboradores' />
             <P text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ad illum perspiciatis quaerat labore tempora quas veniam eaque, reiciendis autem, possimus, iure vero amet, quia sed dolorem esse. Sit rerum error cupiditate beatae quod, quibusdam nam maiores omnis laborum. Fugit atque dignissimos veritatis ex expedita possimus sint nostrum libero natus.' />
