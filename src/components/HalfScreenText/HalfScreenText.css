@@ -1,24 +1,11 @@
-.Left{
-  text-align: left; 
-  button{
-    margin-top: 20px;
-    //float: right;
-  }
-} 
-.Right{
-  //text-align: right;
-  button{
-    //float: left;
-    margin-top: 20px;    
-  }
-}
 .HalfScreenText {
-  box-sizing: border-box;
-  height: 100vh;
   display: flex;
   align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
   @media (min-width: 1200px){
     min-width: 50%;
+    height: 100vh;
   }
 }
 .Flex{

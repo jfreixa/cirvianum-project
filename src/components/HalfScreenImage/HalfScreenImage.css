@@ -10,3 +10,6 @@
     min-width: 50%;
   }
 }
+.Image{
+    max-height: 100vh;
+}

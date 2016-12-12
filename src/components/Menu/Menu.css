@@ -2,12 +2,17 @@
   box-sizing: border-box;
   position: fixed;
   top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 80px;
+  padding: 20px 8vw;
   width: 100%;
   background: rgba(255,255,255,.9);
+  @media (min-width: $sm){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (min-width: $lg){
+    padding: 20px 80px;
+  }
 }
 .Logo{
   height: 50px;

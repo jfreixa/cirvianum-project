@@ -54,7 +54,7 @@ class Landing extends Component {
 
         <FlexLayout reverse id='joc'>
           <HalfScreenImage image={sudoku} />
-          <HalfScreenText alignRight>
+          <HalfScreenText>
             <Title text='Prova el joc desenvolupat per els nostres alumnes' />
             <P text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ad illum perspiciatis quaerat labore tempora quas veniam eaque, reiciendis autem, possimus, iure vero amet, quia sed dolorem esse. Sit rerum error cupiditate beatae quod, quibusdam nam maiores omnis laborum. Fugit atque dignissimos veritatis ex expedita possimus sint nostrum libero natus.' />
             <Button text='+ info' />
@@ -62,7 +62,7 @@ class Landing extends Component {
         </FlexLayout>
 
         <FlexLayout id='galeria'>
-          <HalfScreenGallery photos={this.generateImage(5)} />
+          <HalfScreenGallery photos={this.generateImage(10)} />
           <HalfScreenText>
             <Title text='Visita la nostra galeria' />
             <P text='Tria el que vulguis veure' />
@@ -71,8 +71,8 @@ class Landing extends Component {
         </FlexLayout>
 
         <FlexLayout reverse id='empreses'>
-          <HalfScreenGallery photos={this.generateImage(5)} />
-          <HalfScreenText alignRight>
+          <HalfScreenGallery photos={this.generateImage(10)} />
+          <HalfScreenText>
             <Title text='Empreses col·laboradores' />
             <P text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ad illum perspiciatis quaerat labore tempora quas veniam eaque, reiciendis autem, possimus, iure vero amet, quia sed dolorem esse. Sit rerum error cupiditate beatae quod, quibusdam nam maiores omnis laborum. Fugit atque dignissimos veritatis ex expedita possimus sint nostrum libero natus.' />
             <Button text='+ info' />
