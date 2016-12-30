@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import sudoku from './sudoku.png'
-import developer from './developer-pc.jpeg'
+// import developer from './developer-pc.jpeg'
+
 import {
   Title,
   P,
   Button,
   HalfScreenText,
+  HalfScreenVideo,
   HalfScreenImage,
   FlexLayout,
   Menu,
@@ -45,7 +47,7 @@ class Landing extends Component {
       <div>
         <Menu />
         <FlexLayout id='presentacio'>
-          <HalfScreenImage image={developer} />
+          <HalfScreenVideo video='./bg.mov' />
           <HalfScreenText>
             <Title text='Desenvolupament Aplicacions Web' />
             <P text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque tempore, expedita voluptate tempora magni, quos molestias delectus, quaerat, ipsam sit aliquam eaque! Distinctio, dicta, reprehenderit! Rerum repellat tempora dicta atque fuga, commodi id sint tenetur sunt odio laborum. Placeat, alias.' />

@@ -1,0 +1,15 @@
+.HalfScreenVideo {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #ACE8FD;
+  @media (min-width: $lg){
+    min-width: 50%;
+  }
+}
+.Video{
+    max-height: 100vh;
+}

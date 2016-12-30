@@ -76,7 +76,7 @@ label {
       width: 100vw;
       left: 0;
       top: 94px;
-        
+      padding-bottom: 30px;
       > li {
         width:100%;
         text-align:left;
