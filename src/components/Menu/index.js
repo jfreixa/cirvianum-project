@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import styles from './Menu.css'
 import logo from './logo_cirvianum.svg'
 import MenuItem from './MenuItem'
@@ -22,35 +22,23 @@ const InfoMenu = [
   }
 ]
 
-class Menu extends Component {
-  constructor (...args) {
-    super(...args)
-    this.state = { menu: false }
-    this.handleMenu = this.handleMenu.bind(this)
-  }
-
-  handleMenu () {
-    this.setState({ menu: !this.state.menu })
-  }
-
-  render () {
-    return (
-      <div className={styles.Menu}>
-        <div>
-          <img src={logo} className={styles.Logo} alt='' />
-        </div>
-        <div>
-          <span onClick={this.handleMenu}>MENU</span>
-          {this.state.menu
-            ? InfoMenu.map(({ name, link }, index) => (
-              <MenuItem name={name} key={index} link={link} />
-            ))
-            : ''}
-        </div>
+const Menu = () => {
+  return (
+    <div className={styles.TopBar}>
+      <div>
+        <img src={logo} className={styles.Logo} alt='' />
       </div>
-    )
-  }
-
+      <nav className={styles.Menu}>
+        <input type="checkbox" id="button" />
+        <label htmlFor="button" />
+        <ul>
+          {InfoMenu.map(({ name, link }, index) => (
+              <MenuItem key={index} name={name} link={link} />
+            ))}
+        </ul>
+      </nav>
+    </div>
+  )
 }
 
 export default Menu

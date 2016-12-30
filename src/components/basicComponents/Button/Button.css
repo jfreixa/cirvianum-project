@@ -6,3 +6,6 @@
   border-radius: .25em;
   padding: .6em .9em;
 }
+.fullWidth {
+  width: 100%;
+}

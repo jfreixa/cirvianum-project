@@ -9,7 +9,8 @@ import {
   HalfScreenImage,
   FlexLayout,
   Menu,
-  HalfScreenGallery
+  HalfScreenGallery,
+  Contact
 } from '../../components'
 
 class Landing extends Component {
@@ -78,6 +79,7 @@ class Landing extends Component {
             <Button text='+ info' />
           </HalfScreenText>
         </FlexLayout>
+        <Contact />
       </div>
     )
   }

@@ -3,7 +3,7 @@
   @mixin OpenSans 25px;
   color: #888;
   display: block;
-  padding: 5px 0;
+  padding: 5px 8vw;
   @media (min-width: $sm){
     display: inline-block;
     padding-left: 20px;

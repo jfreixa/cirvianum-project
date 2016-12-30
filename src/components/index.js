@@ -6,6 +6,8 @@ import HalfScreenImage from './HalfScreenImage'
 import FlexLayout from './FlexLayout'
 import Menu from './Menu'
 import HalfScreenGallery from './HalfScreenGallery'
+import Contact from './Contact'
+import SocialMenu from './SocialMenu'
 
 
 
@@ -17,5 +19,7 @@ export {
   HalfScreenImage,
   FlexLayout,
   Menu,
-  HalfScreenGallery
+  HalfScreenGallery,
+  Contact,
+  SocialMenu
 }
