@@ -1,8 +1,0 @@
-.Title {
-  @mixin OpenSans 35px;
-  color: #000;
-  margin-top: 0;
-  @media (min-width: $sm){
-    @mixin OpenSans 40px;
-  }
-}

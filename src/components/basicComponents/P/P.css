@@ -1,6 +1,0 @@
-.P {
-  @mixin OpenSans 20px;
-  line-height: 2em;
-  color: #000;
-  margin-bottom: 40px;
-}
