@@ -1,0 +1,19 @@
+$size: 20px;
+$size-sm: 10px;
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: $size-sm 0;
+  padding: 0 $size-sm;
+  flex-wrap: wrap;
+  @media (min-width: $sm){
+    margin: $size 0;
+    padding: 0 $size;
+  }
+}
+.children {
+  padding: $size-sm;
+  @media (min-width: $sm){
+    padding: $size;
+  }
+}

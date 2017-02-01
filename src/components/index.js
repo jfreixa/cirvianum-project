@@ -9,6 +9,7 @@ import Menu from './Menu'
 import HalfScreenGallery from './HalfScreenGallery'
 import Contact from './Contact'
 import SocialMenu from './SocialMenu'
+import GameCard from './GameCard'
 
 
 
@@ -23,5 +24,6 @@ export {
   Menu,
   HalfScreenGallery,
   Contact,
-  SocialMenu
+  SocialMenu,
+  GameCard
 }

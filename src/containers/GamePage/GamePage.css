@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -64px;
+  padding: 114px 0 50px;
+  height: 100vh;
+}
+
+.game {
+  max-width: 90vw;
+  max-height: 90vw;
+  width: 800px;
+  height: 600px;
+}

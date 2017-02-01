@@ -1,2 +1,5 @@
 import Landing from './Landing'
-export { Landing }
+import GamesPage from './GamesPage'
+import GamePage from './GamePage'
+
+export { Landing, GamesPage, GamePage }
